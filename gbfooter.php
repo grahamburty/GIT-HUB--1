@@ -4,7 +4,7 @@
 
 <div id="gbfooter">
 		
-	<a class="soc-icons" href="http://twitter.com/smileitworks"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+	<a class="soc-icons" href="http://twitter.com/gbartwork"><img src="images/twitter-icon.png" alt="Twitter" /></a>
 	<a class="soc-icons" href="http://smileitworks.com/pulsepro/rss.php"><img src="images/rss-icon.png" alt="RSS" /></a>
 	
 	<p class="copyright">Copyright &copy; 2013 gbartwork | gbartwork is a trading name of burst* limited 

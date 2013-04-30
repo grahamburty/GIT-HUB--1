@@ -70,6 +70,7 @@
   Working with artwork files we can generate accurate visuals of how your packaging will look. Useful for research.<br><br>
   <a href="artwork.php"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
    </p> 
+   Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Coca Cola.
   </div>  
   
   
@@ -82,6 +83,7 @@
   We provide 3D visualisng as a service independant of any artwork services - please get in touch for a quote.<br><br>
   <a href="artwork.php"><img src="images/3d-batiste-thumb.jpg" alt="Batiste can render" /> </a>
    </p> 
+   Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Batiste.
   </div> 
 
   
