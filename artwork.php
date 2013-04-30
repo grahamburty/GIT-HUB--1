@@ -9,7 +9,7 @@
 <meta http-equiv=Content-Type content="text/html;">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<title>welcome to gbartwork</title>
+<title>gbartwork - digital artwork services</title>
 
 <link rel="stylesheet" href="css/style.css" media="all">
 
@@ -42,15 +42,8 @@
 <div id="container" class="centred">
 
 
-<!-- BOX - intro -->
-   <div class="box col5 boxhead">
-  <b>hello!</b><br>
-  <p>
-  <?php include("Blocks/txt-1-about.html"); ?>
-  </p>
-  </div>
   
- <!-- BOX - Services -->
+ <!-- BOX - Services-1 -->
    <div class="box col2 boxhead">
   <b>services:</b><br>
   <p>
@@ -59,43 +52,39 @@
   </div>
   
  
-<!-- BOX - TWITTER -->
-  <div class="box col2 boxhead">
-  <b>smile twitter feed:</b>  
-  <p>latest posts</p>
-  <span id="twitter-wrap"> 
-		<ul id="twitter_update_list"></ul> 
-		<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script> 
-		<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/smileitworks.json
-		callback=twitterCallback2&count=3"></script>
-		<a href="http://twitter.com/smileitworks">see more</a>
-	</span>
-	</div>
-  
-<!-- BOX - web services -->
-  <div class="box col2 boxhead">
-  <b>web services</b><br>
+ <!-- BOX - Services-2 -->
+   <div class="box col3 boxhead">
+  <b>digital artwork:</b><br>
   <p>
-  <strong>Portfolio: website design & development</strong><br>
-  
-  See more in our <a href="web.php"> website services </a>section<br><br>
-  <a href="http://www.thecircusproject.co.uk" target="_blank"><img src="images/TCP.jpg" alt="3d can render" /></a>
-   </p> 
+  <?php include("Blocks/txt-2-services.html"); ?>
+  </p>
   </div>
   
   
-<!-- BOX - 3d visualising -->
+  <!-- BOX - 3d visualising - Coke -->
   <div class="box col4 boxhead">
   <b>3D visualising</b><br>
   <p>
   <strong>Packaging visuals</strong><br>
-  
-  See more in our artwork section<br>
   <br>
   Working with artwork files we can generate accurate visuals of how your packaging will look. Useful for research.<br><br>
   <a href="artwork.php"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
    </p> 
   </div>  
+  
+  
+    <!-- BOX - 3d visualising - Batiste-->
+  <div class="box col4 boxhead">
+  <b>3D visualising</b><br>
+  <p>
+  <strong>Packaging visuals</strong><br>
+  <br>
+  We provide 3D visualisng as a service independant of any artwork services - please get in touch for a quote.<br><br>
+  <a href="artwork.php"><img src="images/3d-batiste-thumb.jpg" alt="Batiste can render" /> </a>
+   </p> 
+  </div> 
+
+  
   
   
   
