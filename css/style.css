@@ -1,0 +1,598 @@
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: width, height;
+     -moz-transition-property: width, height;
+      -ms-transition-property: width, height;
+       -o-transition-property: width, height;
+          transition-property: width, height;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+/*
+* HTML5 ✰ Boilerplate
+* ==== normalize ==========================================================
+*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+/* =============================================================================
+Base
+========================================================================== */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/* =============================================================================
+Links
+========================================================================== */
+
+a { color: #00e; }
+a:hover { color: #FF6600; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+Typography
+========================================================================== */
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+/* =============================================================================
+Lists
+========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+Embedded content
+========================================================================== */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+
+
+/* =============================================================================
+Forms
+========================================================================== */
+
+label { cursor: pointer; }
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+button, input { line-height: normal; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/* =============================================================================
+Let's start it
+========================================================================== */
+
+body {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #FFF;
+  color: #333;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+
+/* --- this changes ALL the links colours ---*/
+a {
+  color: #C0C0C0;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  background: hsla( 0, 100%, 100%, 0.5 );
+}
+
+p { margin-top: 0; }
+
+h1, h2 {
+  font-weight: 100;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h3, p, ul, ol, pre, dl {
+  margin-bottom: 1.0em;
+}
+
+strong { font-weight: bold; }
+
+
+#logo {
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+
+#intro {
+	padding-top: 26px;
+	padding-right: 20px;
+	float: left;
+}
+
+#intro ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#intro a {
+	width: 100px;
+	padding-right: 15px;
+	
+}
+
+
+
+
+/* Footer 
+------------------------------- */
+
+#gbfooter {
+	padding-bottom: 20px;
+	border-top-width: 1px;
+	padding-top: 1px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	clear: both;
+	margin-top: 30px;
+	color: #555555;
+
+}
+
+#gbfooter ul {
+	float: left;
+}
+
+#gbfooter li {
+	margin-right: 10px;
+	list-style-type: none;
+	display: inline;
+}
+
+#gbfooter img:hover {
+opacity: .7;
+-webkit-transition: all .2s ease;
+-moz-transition: all .2s ease;
+-o-transition: all .2s ease;
+transition: all .2s ease;
+}
+
+#gbfooter .copyright {
+	font-size: 11px;
+	color: rgba(0, 0, 0, .3);
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 15px;
+	margin: 0px;
+	clear: both;
+}
+
+#gbfooter .soc-icons {
+	padding-top: 8px;
+	margin: 0px;
+}
+
+#gbfooter .soc-icons img {
+	padding-left: 1px;
+}
+
+#gbfooter .soc-icons a {
+	display: inline;
+}
+
+#gbfooter .copyright a {
+	color: rgba(0, 0, 0, .3);
+}
+
+#gbfooter .hello {
+	padding-right: 15px;
+	float: left;
+}
+
+
+
+
+
+/**** Docs ****/
+
+
+
+.options dl dt { font-weight: normal; }
+
+.options dl dt,
+.options dl dd {
+  float: left;
+  padding: 0 1.2em;;
+  background: #161616;
+  line-height: 32px;
+  height: 32px;
+  margin: 0;
+}
+
+.options dl.header dt,
+.options dl.header dd {
+  color: white;
+  background: #444;
+}
+
+.options dl .option-type {
+  font-size: 13px;
+  color: #AAA;
+  font-style: italic;
+}
+
+.options dl dd {
+  margin-left: 1px;
+}
+
+/**** content and boxes styles ****/
+
+#container {
+  background: #E0E0E0;
+  padding:10px;
+  border-radius: 5px;
+  clear: both;
+  margin-left: 10px;
+  margin-right: 10px;  
+}
+
+.centered { margin: 0 auto; }
+
+
+.box {
+	margin: 10px;
+	padding: 10px;
+  	background: #FDFAF8;
+  	font-size: 14px;
+  	line-height: 1.2em;
+  	float: left;
+}
+
+.box h2 {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.box img,
+#tumblelog img {
+  display: block;
+  width: 100%;
+}
+
+.rtl .box {
+  float: right;
+  text-align: right;
+  direction: rtl;
+}
+
+
+/* box headings styles  */
+
+.boxhead b {
+	background-color: #666;
+	color: #fff;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 9px;
+}
+
+.boxhead p {
+	padding-top: 4px;
+}
+
+
+/* BLACKbox styles  */
+
+.blackbox {
+	background-color: #202020;
+	color: #fff;
+}
+
+.blackbox a:hover {
+	color: #fff;
+}
+
+
+
+
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+
+
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	
+}
+
+
+
+.col1 { width: 80px; }
+.col2 { width: 180px; }
+.col3 { width: 280px; }
+.col4 { width: 380px; }
+.col5 { width: 480px; }
+
+.col1 img { max-width: 80px; }
+.col2 img { max-width: 180px; }
+.col3 img { max-width: 280px; }
+.col4 img { max-width: 380px; }
+.col5 img { max-width: 480px; }
+
+/**** Gutters ****/
+
+.has-gutters .box {
+  margin: 5px 0;
+}
+
+.has-gutters .col1 { width: 90px; }
+.has-gutters .col2 { width: 230px; }
+.has-gutters .col3 { width: 370px; }
+.has-gutters .col4 { width: 550px; }
+
+/**** Primer comparison ****/
+
+#comparison {
+  overflow: auto;
+}
+
+#comparison .example {
+  width: 420px;
+  float: left;
+  margin-right: 20px;
+}
+
+#comparison .box h5 {
+  float: left;
+  margin-bottom: 0;
+  font-size: 30px;
+  margin-right: 4px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+
+
+/* Infinite Scroll loader */
+#infscr-loading {
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  left: 45%;
+  bottom: 40px;
+  width: 200px;
+  padding: 10px;
+  background: #000;
+  opacity: 0.8;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+/**** Fluid ****/
+
+#container.fluid {
+  padding: 5px 0;
+}
+
+.fluid .box {
+  margin: 5px 1%;
+  padding: 5px 1%;
+}
+
+.fluid .box.col1 { width: 16%; }
+.fluid .box.col2 { width: 36%; }
+.fluid .box.col3 { width: 56%; }
+
+/**** Corner stamp ****/
+
+.corner-stamp {
+  width: 280px;
+  height: 340px;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  background: red;
+  color: white;
+  border-radius: 5px;
+}
+
+/**** Pygments ****/
+
+code .s1,
+code .s { color: #78BD55; } /* string */
+code .mi, /* integer */
+code .cp, /* doctype */
+code .kc { color: #5298D4; } /*boolean*/
+code .k { color: #E39B79; } /* keyword */
+code .kd, /* storage */
+code .na { color: #A9D866; } /* markup attribute */
+code .p { color: #EDB; } /* punctuation */
+code .o { color: #F63; } /* operator */
+code .nb { color: #AA97AC;} /* support */
+
+/* comment */
+code .c,
+code .c1 { color: #666; font-style: italic; }
+
+code .nt { color: #A0C8FC; } /* Markup open tag */
+
+code .nf { color: #9EA8B8; } /* css id */
+code .nc { color: #A78352; } /* CSS class */
+code .m { color: #DE8E50; } /* CSS value */
+code .nd { color: #9FAD7E; } /* CSS pseudo selector */
+
+/**** Clearfix ****/
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
