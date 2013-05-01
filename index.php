@@ -2,8 +2,8 @@
 <html>
 
 <head>
-<!-- Google Fonts - link to Roboto Condensed font -->
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,400italic,300italic' rel='stylesheet' type='text/css'>
+<!-- Google Fonts - link to Muli Condensed font -->
+<link href='http://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
 
 <meta charset="utf-8"> 
 <meta http-equiv=Content-Type content="text/html;">
@@ -28,7 +28,7 @@
 
 
 
-<body>
+<body class="home">
 
 <!-- Nav area -->
 
@@ -43,16 +43,16 @@
 
 
 <!-- BOX - intro -->
-   <div class="box col5 boxhead">
-  <b>hello!</b><br>
+   <div class="box col5">
+ <p class="boxhead "> hello!<br></p>
   <p>
   <?php include("Blocks/txt-1-about.html"); ?>
   </p>
   </div>
   
  <!-- BOX - Services -->
-   <div class="box col2 boxhead">
-  <b>services:</b><br>
+   <div class="box col2">
+  <p class="boxhead ">services:<br></p>
   <p>
   <?php include("Blocks/txt-1-services.html"); ?>
   </p>
@@ -60,8 +60,8 @@
   
  
 <!-- BOX - TWITTER -->
-  <div class="box col2 boxhead">
-  <b>smile twitter feed:</b>  
+  <div class="box col2">
+  <p class="boxhead ">smile twitter feed: <br> </p>
   <p>latest posts</p>
   <span id="twitter-wrap"> 
 		<ul id="twitter_update_list"></ul> 
@@ -73,8 +73,8 @@
 	</div>
   
 <!-- BOX - web services -->
-  <div class="box col2 boxhead">
-  <b>web services</b><br>
+  <div class="box col2">
+ <p class="boxhead "> web services<br></p>
   <p>
   <strong>Portfolio: website design & development</strong><br>
   
@@ -85,12 +85,12 @@
   
   
 <!-- BOX - 3d visualising -->
-  <div class="box col4 boxhead">
-  <b>3D visualising</b><br>
+  <div class="box col4">
+  <p class="boxhead ">3D visualising<br></p>
   <p>
   <strong>Packaging visuals</strong><br>
   
-  See more in our artwork section<br>
+  See more in our <a href="artwork.php"> artwork </a>section<br>
   <br>
   Working with artwork files we can generate accurate visuals of how your packaging will look. Useful for research.<br><br>
   <a href="artwork.php"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
@@ -100,15 +100,12 @@
   
   
   <!-- BOX - Contact us -->
-  <div class="box col2 blackbox boxhead">
-  <b>contact us</b><br>
+  <div class="box col2 blackbox">
+  <p class="boxhead ">contact us<br></p>
   <p>
-  <strong>phone:</strong><br>
   01273 778320<br>
-  <strong>e-mail:</strong><br>
   <a href= "mailto:hello@gbartwork.com?subject= website enquiry" >hello@gbartwork.com</a> <br>
-
-  
+  <a href="contact.php">more . . </a>
   </p> 
   </div>
   

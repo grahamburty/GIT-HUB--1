@@ -114,12 +114,18 @@ Let's start it
 ========================================================================== */
 
 body {
-  font-size: 15px;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 13px;
+  font-family: 'Muli', sans-serif;
   background: #FFF;
   color: #333;
   line-height: 1.6em;
   font-weight: 300;
+}
+
+
+.smallbody {
+  font-size: 11px;
+    line-height: 1.0em;
 }
 
 
@@ -185,7 +191,7 @@ strong { font-weight: bold; }
 	display: inline;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
@@ -195,6 +201,28 @@ strong { font-weight: bold; }
 	padding-right: 15px;
 	
 }
+
+/* Navigation
+--------------------------------------------*/
+
+/* Setting highlighted (Nav link) page using CSS
+Add a class to the body (note: use ID for body-background switching not class)
+ID of the nav unordered list
+ID to the specific list (nav link)
+---------------------------------------- */
+
+body.home #navtop a#home,
+body.artwork #navtop a#artwork,
+body.webservices #navtop a#webservices,
+body.contact #navtop a#contact,
+body.blog #navtop a#blog,
+body.client #navtop a#client  {
+	color: #000000;
+}
+
+
+
+
 
 
 
@@ -343,17 +371,17 @@ transition: all .2s ease;
 
 /* box headings styles  */
 
-.boxhead b {
-	background-color: #666;
-	color: #fff;
+.boxhead {
+	background-color: #FFF;
+	border-left: #C0C0C0 2pt solid; 
+	color: #000;
 	font-size: 14px;
+	font-weight: 300;
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 9px;
 }
 
 .boxhead p {
-	padding-top: 4px;
 }
 
 
@@ -362,6 +390,7 @@ transition: all .2s ease;
 .blackbox {
 	background-color: #202020;
 	color: #fff;
+	line-height: 1.4em;
 }
 
 .blackbox a:hover {
