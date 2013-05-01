@@ -15,8 +15,9 @@
 
 <style type="text/css"></style>
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<!-- Lightbox - required -->
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/lightbox.js"></script>
 
 <!-- Masonry - required -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -65,10 +66,10 @@
   <div class="box col4">
   <p class="boxhead">3D visualising<br></p>
   <p>
-  <strong>Packaging visuals</strong><br>
+  Packaging visuals<br>
   <br>
   Working with artwork files we can generate accurate visuals of how your packaging will look. Useful for research.<br><br>
-  <a href="artwork.php"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
+  <a href="images/UKCokex3-72.jpg"  rel="lightbox"  title="3d visual using Cinema4D"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
    </p> 
    <p class="smallbody">
    Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Coca Cola.
@@ -80,10 +81,10 @@
   <div class="box col4">
   <p class="boxhead">3D visualising<br></p>
   <p>
-  <strong>Packaging visuals</strong><br>
+  Packaging visuals<br>
   <br>
   We provide 3D visualisng as a service independant of any artwork services - please get in touch for a quote.<br><br>
-  <a href="artwork.php"><img src="images/3d-batiste-thumb.jpg" alt="Batiste can render" /> </a>
+  <a href="images/batiste-cans.jpg" rel="lightbox"  title="3d visual using Cinema4D"><img src="images/3d-batiste-thumb.jpg" alt="Batiste can render" /> </a>
    </p> 
    <p class="smallbody">
    Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Batiste.
@@ -96,13 +97,10 @@
   
   <!-- BOX - Contact us -->
   <div class="box col2 blackbox">
-  <p class="boxhead">contact us<br></p>
+  <p class="boxhead ">contact us<br></p>
   <p>
-  <strong>phone:</strong><br>
   01273 778320<br>
-  <strong>e-mail:</strong><br>
   <a href= "mailto:hello@gbartwork.com?subject= website enquiry" >hello@gbartwork.com</a> <br>
-  <br>
   <a href="contact.php">more . . </a>
   </p> 
   </div>
@@ -136,14 +134,7 @@ $container.imagesLoaded(function(){
 
 </script>
 
-<!-- Lightbox script -->
-<script type="text/javascript">
-$(function() {
 
-	$('#gallery a').lightBox(); // Select all links in object with gallery ID
-
-});
-</script>
 
 
 

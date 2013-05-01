@@ -1,5 +1,5 @@
 <div id="logo">
-<a href="index.php"><img src="images/gbartwork-logo.png" alt= "gbartwork"></a>
+<a href="index.php"><img src="images/gbartwork-logo-3.png" alt= "gbartwork"></a>
 </div>
 
 <div id="intro">
