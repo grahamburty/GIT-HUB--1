@@ -73,13 +73,10 @@
   <div class="box col2">
   <p class="boxhead ">twitter feed: <br> </p>
   <p>Latest posts</p>
-  <span id="twitter-wrap"> 
-		<ul id="twitter_update_list"></ul> 
-		<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script> 
-		<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/gbartwork.json
-		callback=twitterCallback2&count=3"></script>
-		<a href="http://twitter.com/gbartwork">see more</a>
-	</span>
+
+		<a class="twitter-timeline" href="https://twitter.com/gbartwork" data-widget-id="329610098425073665">Tweets by @gbartwork</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 	</div>
   
 

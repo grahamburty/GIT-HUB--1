@@ -77,6 +77,26 @@
   </div>  
   
   
+  
+  <!-- BOX - Artwork example - Spotlites -->
+  <div class="box col4">
+  <p class="boxhead">digital artwork<br></p>
+  <p>
+  Packaging artwork<br>
+  <br>
+  Created in Adobe Illustrator. Using 7 colours, 4 colour process plus two specials and an opaque white. <br>
+  <br>
+  We used the metallic substrate for the shiny logo and areas covered with transparent ink to create a shiny sparkly "in the spotlite" feel. Mixed with opaque areas to enhance the product image.
+  <br>
+  <a href="images/aw-ref-spotlites-3.jpg"  rel="lightbox"  title="Packaging artwork using Adobe Illustrator"><img src="images/aw-ref-spotlites-1-thumb.jpg" alt="Spotlites digital artwork" /> </a>
+   </p> 
+   
+  </div>
+  
+  
+
+  
+  
     <!-- BOX - 3d visualising - Batiste-->
   <div class="box col4">
   <p class="boxhead">3D visualising<br></p>
