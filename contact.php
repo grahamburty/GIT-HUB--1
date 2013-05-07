@@ -66,21 +66,14 @@
   </div>
 
  
-<!-- BOX - TWITTER -->
-  <div class="box col2">
-  <p class="boxhead ">twitter feed: <br> </p>
-  <p>Latest posts</p>
 
-		<a class="twitter-timeline" href="https://twitter.com/gbartwork" data-widget-id="329610098425073665">Tweets by @gbartwork</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-	</div>
   
 
   
   <!-- BOX - Contact form -->  
    <div class="box col4">
-  <p class="boxhead ">contact form<br></p> 
+  <p class="boxhead ">contact us for a quote<br></p> 
    <p>
    
    <?php include("CMS/includes/form.php"); ?>
@@ -102,6 +95,16 @@
    </div>
   
   
+  <!-- BOX - TWITTER -->
+  <div class="box col2twit">
+  <p class="boxhead ">twitter feed: <br> </p>
+  <p>Latest posts</p>
+
+		<a class="twitter-timeline" href="https://twitter.com/gbartwork"  data-widget-id="329610098425073665">Tweets by @gbartwork</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+	</div>
+  
   
   
 </div><!-- END - Main Body area -->
@@ -118,16 +121,18 @@
 
 <!-- Vanilla Masonry script -->
 <script>
+
 var $container = $('#container');
-$container.imagesLoaded(function(){
-  $container.masonry({
+
+$(window).load(function(){
+  $('#container').masonry({
     itemSelector : '.box',
     columnWidth : 10,
   });
 });
 
-</script>
 
+</script>
 
 
 

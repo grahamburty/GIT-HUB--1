@@ -62,19 +62,7 @@
   </div>
   
   
-  <!-- BOX - 3d visualising - Coke -->
-  <div class="box col4">
-  <p class="boxhead">3D visualising<br></p>
-  <p>
-  Packaging visuals<br>
-  <br>
-  Working with artwork files we can generate accurate visuals of how your packaging will look. Useful for research.<br><br>
-  <a href="images/UKCokex3-72.jpg"  rel="lightbox"  title="3d visual using Cinema4D"><img src="images/UK-Cokex3-thumb.jpg" alt="Coke 3d can render" /> </a>
-   </p> 
-   <p class="smallbody">
-   Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Coca Cola.
-   </p>
-  </div>  
+  
   
   
   
@@ -82,7 +70,7 @@
   <div class="box col4">
   <p class="boxhead">digital artwork<br></p>
   <p>
-  Packaging artwork<br>
+  Packaging artwork - Food<br>
   <br>
   Created in Adobe Illustrator. Using 7 colours, 4 colour process plus two specials and an opaque white. <br>
   <br>
@@ -92,27 +80,26 @@
    </p> 
    
   </div>
+      
   
   
-
-  
-  
-    <!-- BOX - 3d visualising - Batiste-->
+   
+  <!-- BOX - Artwork example - Bblonde -->
   <div class="box col4">
-  <p class="boxhead">3D visualising<br></p>
+  <p class="boxhead">digital artwork<br></p>
   <p>
-  Packaging visuals<br>
+  Packaging artwork - Health & Beauty<br>
   <br>
-  We provide 3D visualisng as a service independant of any artwork services - please get in touch for a quote.<br><br>
-  <a href="images/batiste-cans.jpg" rel="lightbox"  title="3d visual using Cinema4D"><img src="images/3d-batiste-thumb.jpg" alt="Batiste can render" /> </a>
+  Created in Adobe Illustrator. Using 6 colours, 4 colour process plus two specials. <br>
+  <br>
+  We worked closely with the design agency to keep consistency across the range in two box sizes, the complete job included component labels and a leaflet design. It was important to work with existing structures and cutters.  
+  <br>
+  <a href="images/aw-ref-Bblonde-1.jpg"  rel="lightbox"  title="Packaging artwork using Adobe Illustrator"><img src="images/aw-ref-Bblonde-1-thumb.jpg" alt="Bblonde digital artwork" /> </a>
    </p> 
-   <p class="smallbody">
-   Please note: this example was created as a visual to promote our 3D rendering and not as part of a project working with Batiste.
-   </p>
-  </div> 
+   
+  </div>
 
-  
-  
+
   
   
   <!-- BOX - Contact us -->

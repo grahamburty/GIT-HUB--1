@@ -70,13 +70,13 @@
    
  
 <!-- BOX - TWITTER -->
-  <div class="box col2">
+  <div class="box col2twit">
   <p class="boxhead ">twitter feed: <br> </p>
   <p>Latest posts</p>
 
-		<a class="twitter-timeline" href="https://twitter.com/gbartwork" data-widget-id="329610098425073665">Tweets by @gbartwork</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+		<a class="twitter-timeline" href="https://twitter.com/gbartwork"  data-widget-id="329610098425073665">Tweets by @gbartwork</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
 	</div>
   
 
@@ -97,16 +97,18 @@
 
 <!-- Vanilla Masonry script -->
 <script>
+
 var $container = $('#container');
-$container.imagesLoaded(function(){
-  $container.masonry({
+
+$(window).load(function(){
+  $('#container').masonry({
     itemSelector : '.box',
     columnWidth : 10,
   });
 });
 
-</script>
 
+</script>
 
 
 

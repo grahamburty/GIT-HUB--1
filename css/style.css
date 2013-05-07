@@ -216,7 +216,9 @@ body.artwork #navtop a#artwork,
 body.webservices #navtop a#webservices,
 body.contact #navtop a#contact,
 body.blog #navtop a#blog,
-body.client #navtop a#client  {
+body.client #navtop a#client,  
+body.visual #navtop a#visual
+{
 	color: #000000;
 }
 
@@ -415,8 +417,15 @@ transition: all .2s ease;
 
 
 
+#twitbox {
+	width: 180; 
+	height: 400;
+}
 
-
+.col2twit {
+	width: 200px;
+	height: 500px;
+}
 
 
 .col1 { width: 80px; }
